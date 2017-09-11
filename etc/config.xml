@@ -1,0 +1,17 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <payment>
+            <adminpaymentmethod>
+                <active>1</active>
+                <model>Space48\AdminPaymentMethod\Model\Payment\AdminPaymentMethod</model>
+                <order_status>pending</order_status>
+                <title>Admin Payment Method</title>
+                <allowspecific>0</allowspecific>
+                <sort_order>1</sort_order>
+                <can_use_checkout>0</can_use_checkout>
+                <can_use_internal>1</can_use_internal>
+                <group>Offline</group>
+            </adminpaymentmethod>
+        </payment>
+    </default>
+</config>
