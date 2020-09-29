@@ -10,7 +10,7 @@
                 <sort_order>1</sort_order>
                 <can_use_checkout>0</can_use_checkout>
                 <can_use_internal>1</can_use_internal>
-                <group>Offline</group>
+                <group>offline</group>
             </adminpaymentmethod>
         </payment>
     </default>
