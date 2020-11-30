@@ -2,10 +2,10 @@
   "name": "space48/adminpaymentmethod",
   "description": "Payment Method for Magento 2 admin orders",
   "require": {
-    "php": ">=5.5 <=7.4"
+    "php": ">=5.5 <=7.3||~7.4.0"
   },
   "type": "magento2-module",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "license": [
     "proprietary"
   ],
